@@ -7,12 +7,12 @@ Simple API for searching public keys from email
 Routes
 ------
 
-### GET /mail/'<email>'
+### GET /mail/`<email>`
 
 This route returns a JSON with the following atributes:
 
-- result
-- data 
+- **result**
+- **data**
 
 Subattributes of data:
 
@@ -85,5 +85,5 @@ morbo sks-api.pl
 TODO
 ----
 
-- Return the subattribute of 'data' with information about signers.
+- Return the subattribute of `data` with information about signers.
 
