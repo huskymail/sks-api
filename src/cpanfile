@@ -1,0 +1,3 @@
+requires 'WWW::HKP';
+requires 'Mail::RFC822::Address';
+requires 'Mojolicious::Lite';
