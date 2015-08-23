@@ -16,6 +16,11 @@ my $hkp = WWW::HKP->new(
         port => 11371
 );
 
+get '/status' => sub {
+	my $c = shift;
+	$c->render(text => 'WORKING');
+};
+
 get '/mail/:mail' => sub {
 	my $c = shift;
 
